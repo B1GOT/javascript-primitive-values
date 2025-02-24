@@ -4,3 +4,8 @@ let totalFileSize = 250000;
 let uploadedSize = 30000;
 
 // Start coding here
+let uploadProgress = uploadedSize / totalFileSize * 100;
+console.log(`Upload Progress: ${uploadProgress.toFixed(2)}%`);
+
+// What is the output?
+// Answer : Upload Progress: 12.00%
